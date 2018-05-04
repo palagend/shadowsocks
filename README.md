@@ -29,7 +29,7 @@ Debian / Ubuntu:
 
 CentOS:
 
-    yum install python-setuptools && easy_install pip
+    yum install -y epel-release && yum install python-pip
     pip install shadowsocks
 
 Windows:
